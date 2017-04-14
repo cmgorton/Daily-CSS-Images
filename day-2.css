@@ -1,0 +1,202 @@
+body{
+  background:#8b7e87;
+}
+
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 800px;
+  height: 500px;
+ background:#ac99a6;
+ 
+}
+.left-large-leg {
+  position: absolute;
+  height: 30%;
+  width:20%;
+  left:21%;
+ background:#8b7e87;
+ border-radius: 0px 0px 20px 20px;
+ border-style: solid;
+  border-top:0px;
+  border-color:#ac99a6; 
+  -webkit-clip-path: polygon(20% 0%, 83% 0, 96% 100%, 10% 100%);
+clip-path: polygon(20% 0%, 83% 0, 96% 100%, 10% 100%);
+  z-index:1;
+}
+.toe1 {
+  position: absolute;
+  height: 20%;
+  width:45%;
+  left:5%;
+  top:90%;
+  background:#cec6b9;
+-webkit-clip-path: ellipse(25% 32% at 50% 50%);
+clip-path: ellipse(25% 32% at 50% 50%);
+  z-index:2;
+}
+.toe2 {
+  position: absolute;
+  height: 20%;
+  width:55%;
+  left:25%;
+  top:90%;
+  background:#cec6b9;
+  
+  -webkit-clip-path: ellipse(25% 32% at 50% 50%);
+clip-path: ellipse(25% 32% at 50% 50%);
+  z-index:3;
+}
+.toe3 {
+  position: absolute;
+  height: 20%;
+  width:45%;
+  right:1%;
+  top:90%;
+  background:#cec6b9;
+  
+  -webkit-clip-path: ellipse(25% 32% at 50% 50%);
+clip-path: ellipse(25% 32% at 50% 50%);
+  z-index:2;
+}
+
+.right-large-leg {
+  position: absolute;
+  height: 36%;
+  width:20%;
+  float: right;
+  right:17%;
+  background:#8b7e87;
+ border-radius: 0px 0px 20px 20px;
+ border-style: solid;
+  border-color:#ac99a6;
+  border-top:0px;
+  -webkit-clip-path: polygon(20% 0%, 83% 0, 96% 100%, 10% 100%);
+clip-path: polygon(20% 0%, 83% 0, 96% 100%, 10% 100%);
+}
+
+.baby-body{
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  width: 20%;
+  height: 25%;
+  background: #6c2717;
+  border-radius: 50%;
+  border-style: solid;
+  
+  border-color:#ac99a6;
+}
+
+.body-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #8b7e87;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.baby-head {
+ width:60%;
+ height:70%;
+  left: -25%;
+  top: -8%; 
+ position: absolute;
+  background:#8b7e87;
+ border-radius: 50%;
+ border-style: solid;
+  border-color:#ac99a6; 
+  z-index: 2;
+ }
+.eye {
+  width:20%;
+ height:20%;
+  left: 12%;
+  top: 30%; 
+ position: absolute;
+  background:black;
+  border-radius:50%;
+  z-index: 3;
+  
+}
+.pupil {
+  width:20%;
+ height:20%;
+  left: 12%;
+  top: 30%; 
+ position: absolute;
+  background:white;
+  border-radius:50%;
+  z-index: 4;
+}
+
+.baby-ear{
+  width:70%;
+ height:70%;
+  left: 60%;
+  top: 5%; 
+ position: absolute;
+  background:#8b7e87;
+ border-radius:20px 50px 20px 50px;
+  
+  border-style: solid;
+  border-color:#ac99a6;
+  z-index: 3;
+ }
+
+.babyleg1 {
+  height:30%;
+  width:25%;
+  position: absolute;
+  bottom: -14%;
+  left:13%;
+  background:#8b7e87;
+  border-radius:20%;
+  border-style: solid;
+  border-top: 0px;
+  border-color:#ac99a6;
+}
+.babyleg2 {
+  height:30%;
+  width:25%;
+  position: absolute;
+  bottom: -15%;
+  right:13%;
+  background:#8b7e87;
+  border-radius:20%;
+  border-style: solid;
+  border-top: 0px;
+  border-color:#ac99a6;
+}
+.toenail, .toenail2{
+position: absolute;
+  height: 30%;
+  width:45%;
+  left:-10%;
+  top:78%;
+  background:#cec6b9;
+  -webkit-clip-path: ellipse(25% 32% at 50% 50%);
+clip-path: ellipse(25% 32% at 50% 50%);
+  z-index:2;
+}
+
+.trunk {
+  position: absolute;
+  height: 40%;
+  width:45%;
+  left:-10%;
+  top:78%;
+  background:#8b7e87;
+  border-style: solid;
+  border-top: 0px;
+  border-color:#ac99a6;
+  z-index: 4;
+  
+  
+-webkit-clip-path: polygon(34% 0, 96% 0, 54% 100%, 0% 100%);
+clip-path: polygon(34% 0, 96% 0, 54% 100%, 0% 100%);
+}
+
