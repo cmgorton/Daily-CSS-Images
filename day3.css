@@ -1,0 +1,318 @@
+//Colors
+$primary:#83634c;
+$border:#4b3730;
+
+body{
+  background:#cec6b9;
+}
+
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+   width: 600px;
+  height: 420px;
+background:#cec6b9;
+ 
+}
+
+  .BeaverBody {
+  position: relative;
+  top: 35%;
+  left: 25%;
+  width: 40%;
+  height: 62%;
+  -webkit-clip-path: ellipse(33% 40% at 50% 50%);
+clip-path: ellipse(33% 40% at 50% 50%);
+  background:$primary; 
+  z-index:1;
+  
+}
+.Body-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background:$primary;
+  border-radius: 50%;
+  z-index: 2;
+ 
+}
+.left-arm {
+  position: absolute;
+  top: 28%;
+  left: 25%;
+  width: 20%;
+  height: 23%;
+  background:$primary;
+  border-radius:50%;
+  border-style: solid;
+  border-color: $border;
+  -ms-transform: rotate(15deg); 
+    -webkit-transform: rotate(15deg); 
+    transform: rotate(15deg);
+  z-index:3;
+}
+
+.right-arm {
+ position: absolute;
+  top: 28%;
+  right: 25%;
+  width: 20%;
+  height: 23%;
+  background:$primary;
+  border-radius:50%;
+  border-style: solid;
+  border-color: $border;
+  z-index:3;
+}
+
+.nails1 {
+  position:absolute;
+  bottom:10%;
+  left:12%;
+  width:7%;
+  height:25%;
+  background:$border;
+  z-index:3 ; 
+  }
+.nails2 {
+  position:absolute;
+  bottom:4%;
+  left:34%;
+  width:7%;
+  height:26%;
+  background:$border;
+  z-index:3 ; 
+}
+  
+  .nails3{
+  position:absolute;
+  bottom:4%;
+  right:30%;
+  width:7%;
+  height:26%;
+  background:$border;
+  z-index:3 ; 
+ }
+
+.nails4{
+  position:absolute;
+  bottom:10%;
+  right:10%;
+  width:7%;
+  height:25%;
+  background:$border;
+  z-index:3 ; 
+  }
+
+.Beaver-Head{
+  position: absolute;
+  top: 13%;
+  left: 35%;
+  width: 20%;
+  height: 37%;
+ background:$primary;
+border-radius:50%;
+  
+   z-index:1
+}
+.right-cheek {
+position: absolute;
+  bottom: 25%;
+  right: 16%;
+  width: 35%;
+  height: 32%;
+  background:#f7ebd6;
+  border-radius:50%;
+  z-index:4;
+}
+
+.left-cheek {
+position: absolute;
+  bottom: 25%;
+  left: 16%;
+  width: 35%;
+  height: 32%;
+  background:#f7ebd6;
+  border-radius:50%;
+  z-index:4;
+}
+
+.nose{
+position: absolute;
+  top: 37%;
+  left: 35%;
+  width: 30%;
+  height: 15%;
+  background:black;
+  border-radius:50%;
+  z-index:5;
+}
+.left-eye {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 60%;
+  height: 40%;
+  background:white;
+  -webkit-clip-path: ellipse(16% 28% at 49% 49%);
+clip-path: ellipse(16% 28% at 49% 49%);
+  z-index:4;
+  
+}
+.right-eye {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  width: 60%;
+  height: 40%;
+  background:white;
+  -webkit-clip-path: ellipse(16% 28% at 49% 49%);
+clip-path: ellipse(16% 28% at 49% 49%);
+  z-index:4;
+}
+.black-pupil {
+position: absolute;
+  top: 20%;
+  left:14%;
+  width: 65%;
+  height: 60%;
+  background:black;
+  -webkit-clip-path: ellipse(16% 28% at 49% 49%);
+clip-path: ellipse(16% 28% at 49% 49%);
+  z-index:5;
+}
+.eye-highlight {
+position: absolute;
+  top: 10%;
+  left:16%;
+  width: 40%;
+  height: 50%;
+  background:white;
+  -webkit-clip-path: ellipse(16% 28% at 49% 49%);
+clip-path: ellipse(16% 28% at 49% 49%);
+  z-index:5;
+}
+.tooth1{
+  position: absolute;
+  top: 60%;
+  left: 28%;
+  width: 25%;
+  height: 30%;
+   background:white;
+  border-style: solid;
+  border-width: medium;
+  border-color:#eee0f4;
+  z-index:3;
+  -webkit-clip-path: polygon(22% 0, 78% 0, 79% 100%, 8% 100%);
+  clip-path: polygon(22% 0, 78% 0, 79% 100%, 8% 100%);
+}
+.tooth2{
+  position: absolute;
+  top: 60%;
+  right: 26%;
+  width: 25%;
+  height: 30%;
+  background:white;
+  border-style: solid;
+  border-width: medium;
+  border-color:#eee0f4;
+  z-index:3;
+  -webkit-clip-path: polygon(28% 0, 78% 0, 93% 100%, 27% 100%);
+clip-path: polygon(28% 0, 78% 0, 93% 100%, 27% 100%);
+}
+
+
+.hat {
+position: absolute;
+  top: 6%;
+  left: 37%;
+  width: 16%;
+  height: 15%;
+   background-image:url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0479/0564/letterquilt_ed_shop_thumb.png);
+  -webkit-clip-path: polygon(51% 13%, 97% 27%, 100% 75%, 46% 76%, 0% 75%, 5% 25%);
+clip-path: polygon(51% 13%, 97% 27%, 100% 75%, 46% 76%, 0% 75%, 5% 25%);
+ border-radius:40px, 20px ,40px, 40px; 
+  z-index:4;
+ }
+
+.hat-flap1{
+  position:absolute;
+  left:0%;
+  top:0%;
+  height:30%;
+  width:25%;
+  background-image:url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0479/0564/letterquilt_ed_shop_thumb.png);
+  border-radius:40px, 20px ,40px, 40px;
+-webkit-clip-path: polygon(48% 0, 99% 6%, 75% 100%, 0% 100%);
+clip-path: polygon(48% 0, 99% 6%, 75% 100%, 0% 100%);
+ z-index: 2;
+}
+
+.hat-flap2{
+  position:absolute;
+  right:-2%;
+  top:0%;
+  height:30%;
+  width:25%;
+  background-image:url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0479/0564/letterquilt_ed_shop_thumb.png);
+  border-radius:40px, 20px ,40px, 40px;
+-webkit-clip-path: polygon(1% 7%, 45% 0, 74% 100%, 0% 100%);
+clip-path: polygon(1% 7%, 45% 0, 74% 100%, 0% 100%);
+  z-index: 2;
+}
+
+.tail{
+  position:absolute;
+  left:3%;
+   top:40%;
+  width:30%;
+  height:60%;
+ border-style: solid;
+  border-width: 20px;
+  border-color: $primary;
+  background: repeating-linear-gradient(
+    45deg, 
+    transparent,
+    transparent 10px,
+     #83634c 10px,
+    #83634c 18px
+    
+  ),
+  linear-gradient(
+    to bottom,
+    #3f2d29,
+    #6c2717
+  );
+-webkit-clip-path: ellipse(35% 18% at 50% 50%);
+clip-path: ellipse(35% 18% at 50% 50%);
+  -ms-transform: rotate(20deg); 
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);
+  z-index:0;
+ 
+}
+.left-foot {position:absolute;
+  left:20%;
+   top:65%;
+  width:30%;
+  height:40%;
+ background:$border;
+-webkit-clip-path: ellipse(35% 18% at 50% 50%);
+clip-path: ellipse(35% 18% at 50% 50%);
+  z-index:0;
+}
+.right-foot {position:absolute;
+  right:30%;
+   top:65%;
+  width:30%;
+  height:40%;
+ background:$border;
+-webkit-clip-path: ellipse(35% 18% at 50% 50%);
+clip-path: ellipse(35% 18% at 50% 50%);
+  z-index:0;
+  -ms-transform: rotate(15deg); 
+    -webkit-transform: rotate(15deg); 
+    transform: rotate(15deg);
+}
